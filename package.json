@@ -30,5 +30,22 @@
     "peerDependencies": {
         "form-data": "4.0.1",
         "whatwg-url": "7.1.0"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "SOLANA_PRIVATE_KEY": {
+                "type": "string",
+                "description": "Solana wallet private key"
+            },
+            "SOLANA_RPC_URL": {
+                "type": "string",
+                "description": "Solana RPC endpoint URL"
+            },
+            "OPENAI_API_KEY": {
+                "type": "string",
+                "description": "OpenAI API key for AI functionality"
+            }
+        }
     }
 }
